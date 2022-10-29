@@ -36,6 +36,12 @@ jobs:
   deploy:
     needs: build
     runs-on: ubuntu-latest
-    steps:
+    steps: #use the artifact using their name
+      - name: Get build Artifacts
+        uses: actions/download-artifact@v3
+        with:
+          name: dist-files #files are unzipped and folder content are saved to the action containing folder
+      - name: Output contents
+        run: ls
       - name: Deploy
         run: echo "Deploying..."
