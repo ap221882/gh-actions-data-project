@@ -6,7 +6,7 @@ Learnt Artifacts, Job Outputs, outputs sharing, caching during actions.
 
 
 
-ENVIRONMENT VARIABLES IN GH ACTIONS
+ENVIRONMENT VARIABLES IN GH ACTIONS (can be step-level, job-level, global)
 
 env:
     VARIABLE: AJAY
