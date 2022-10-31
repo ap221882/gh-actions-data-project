@@ -21,3 +21,13 @@ referenced by-
 SECRETS: 
     can be referenced by
     ${{ secrets.SECRET_NAME }}
+
+
+
+ENVIRONMENTS
+
+-are for jobs
+to activate a environment in a job
+    jobs:
+        jobname:
+                environment: <environment_name>
