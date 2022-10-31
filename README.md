@@ -16,3 +16,8 @@ referenced by-
     ${{ env.VARIABLE }} 
           OR
      $VARIABLE (on ubuntu)
+
+
+SECRETS: 
+    can be referenced by
+    ${{ secrets.SECRET_NAME }}
